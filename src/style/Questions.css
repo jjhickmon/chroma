@@ -1,4 +1,11 @@
 /* CSS code for the Profile page */
 .title {
-    color: red;
+    color: black;
 }
+
+.Questions {
+    background-image: url("https://images.template.net/94766/pastel-pink-background-yw0ub.jpg%22");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-repeat: repeat;
+   }
