@@ -10,8 +10,8 @@ const username = ['user', now].join('-');
 class Message extends Component{
 
   render () {
-      return ( 
-        <div > { this.props.uuid }: { this.props.text } 
+      return (
+        <div > { this.props.uuid }: { this.props.text }
         </div>
       );
   }
@@ -26,7 +26,7 @@ function Chat() {
     // function syncUsers() {
     //     getUsers(users => {
     //         console.log('Fetched users', users)
-            
+
     //         {/* Run this code to load Chat Engine users */}
     //         currentUsers.map(current => {
     //             if(!users.find(user => current.username === user.username)) {
@@ -51,13 +51,13 @@ function Chat() {
     <div className="Chat">
         <h1>Testing Chat Page</h1>
 
-        <ChatEngine 
+        <ChatEngine
             projectID='707f0546-7b8c-4a4a-9a27-9a27a6f01301'
             userName='Test'
             userSecret='testtest'
         />
         {/* <ChatEngineWrapper>
-            <ChatSocket 
+            <ChatSocket
                 projectID='707f0546-7b8c-4a4a-9a27-9a27a6f01301'
                 chatID='134918'
                 chatAccessKey='ca-6aba8df4-9ba9-4717-b40a-d0aa3c11e2bc'

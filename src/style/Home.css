@@ -1,75 +1,33 @@
-.page {
-    background-color: white;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 100;
-}
+.container {
+    position: relative;
+    width: 50%;
+  }
 
-.Home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://cdn.discordapp.com/attachments/1033472864030052482/1033516407222186015/Screen_Shot_2022-10-22_at_4.03.34_PM.png");
-}
+  /* Make the image responsive /
+  .container img {
+    width: 100%;
+    height: auto;
+  }
 
-/* .home-bg {
+  img {
+      opacity: 0.5;
+  }
+  / Style the button and place it in the middle of the container/image */
+  .container .btn {
     position: absolute;
-    opacity: 0.5;
-    height: 100vh;
-    z-index: 0;
-} */
-
-.title-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    height: 40vh;
-    background-color: rgba(255, 255, 255);
-    border-radius: 0 0 15% 15%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.highlight {
-    color: #FF9A78;
-}
-
-h1 {
-    margin: 4vh 0 0 0;
-    font-weight: 100;
-    font-size: 5ch;
-    text-align: center;
-}
-
-p {
-    font-weight: 100;
-    font-size: 3ch;
-    text-align: center;
-}
-
-.get-started-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.get-started {
-    color: black;
-    background-color: white;
-    font-size: 1.5rem;
-    padding: 2vh 6vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5vh;
-    position: relative;
-    top: 15vh;
-    justify-content: center;
-}
+    border-radius: 5px;
+  }
+
+  .container .btn:hover {
+    background-color: black;
+  }

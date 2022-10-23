@@ -4,8 +4,20 @@
 }
 
 .Questions {
-    background-image: url("https://images.template.net/94766/pastel-pink-background-yw0ub.jpg%22");
+    background-image: url("https://cdn.discordapp.com/attachments/1033472864030052482/1033525941709832243/Screen_Shot_2022-10-22_at_4.12.20_PM.png");
     background-color: #cccccc;
     background-attachment: fixed;
-    background-repeat: repeat;
-   }
+    background-repeat: no-repeat;
+}
+input[type=checkbox] {
+    padding: 10px;
+    border-radius: 30px;
+    border-color: #a3b899;
+    border-style: solid;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  img{
+    width: 400px;
+    height: 800px;
+  }
