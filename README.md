@@ -11,10 +11,10 @@ npm start
 
 The assignments are:
 
-Aaleiah - Home.js
+- Aaleiah - Home.js
 
-Logan - Questions.js
+- Logan - Questions.js
 
-Allison - Profile.js
+- Allison - Profile.js
 
-Javon - Chat.js
+- Javon - Chat.js
