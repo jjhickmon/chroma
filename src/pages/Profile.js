@@ -6,19 +6,28 @@ function Profile() {
         <h1>Profile Page</h1>
         <div>
           <section id='info'>
-            <p>Email</p>
-            <p>Date of Birth</p>
-            <p>Address</p>
+            <img src='https://cdn.discordapp.com/attachments/1033472864030052482/1033525941709832243/Screen_Shot_2022-10-22_at_4.12.20_PM.png'
+            alt='three girls sitting on a stair'></img>
+            <section>
+              <p>Email</p>
+              <p>Date of Birth</p>
+              <p>Address</p>
+            </section>
           </section>
 
           <span id='nav'>
-            <span>About</span>
-            <span>Work</span>
-            <span>Activity</span>
+            <span>ABOUT</span>
+            <span>WORK</span>
+            <span>ACTIVITY</span>
           </span>
 
           <section id='bio'>
             <p>BIO</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Tortor
+              turpis sodales nulla velit. Nunc cum vitae, rhoncus leo id. Volutpat
+              Duis tinunt pretium luctus pulvinar pretium.
+            </p>
           </section>
 
           <section id='social'>
@@ -34,8 +43,14 @@ function Profile() {
           </section>
 
           <section id='personal'>
-            <span>WEBSITE</span>
-            <span>PHONE</span>
+            <p>
+              WEBSITE
+              <span>www.portfolio.com</span>
+            </p>
+            <p>
+              PHONE
+              <span>626-398-6547</span>
+            </p>
           </section>
         </div>
     </div>

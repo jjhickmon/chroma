@@ -1,1 +1,68 @@
 /* CSS code for the Home page */
+.Profile {
+  background-image: url('https://cdn.discordapp.com/attachments/1033472864030052482/1033517732190236803/Screen_Shot_2022-10-22_at_4.10.07_PM.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+#nav span, #info, #bio, #social, #personal {
+  padding: 20px;
+}
+
+#social img {
+  width: 33px;
+  height: 33px;
+}
+
+#info {
+  display: flex;
+  flex-direction: row;
+}
+
+#info section {
+  align-self: flex-end;
+  padding-left: 20px;
+}
+
+#info img {
+  width: 160px;
+  height: auto;
+}
+
+#info, #bio, #social, #personal {
+  border-radius: 20px;
+  border-style: solid;
+  background-color: #fceee9;
+  border-color: #667b68;
+  color: #667B68;
+  margin: 50px;
+}
+
+#nav {
+  padding: 10px;
+  border-radius: 30px;
+  border-color: #a3b899;
+  border-style: solid;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#nav span:hover {
+  background-color: #667b68;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#personal {
+  display: flex;
+  flex-direction: column;
+}
+
+#personal span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
