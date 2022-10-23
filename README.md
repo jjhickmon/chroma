@@ -19,7 +19,14 @@ The assignments are:
 
 - Javon - Chat.js
 
+## To Get Started
+clone the the repository using ssh
 
+open the terminal in vscode/intellij
+
+type npm install in the terminal
+
+type npm run
 
 ## Available Scripts
 
